@@ -1,0 +1,106 @@
+h1 {
+    font-size: 3rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color:blueviolet;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Amatic SC', cursive;
+}
+
+fieldset {
+    padding: 3rem;
+    border: 10px;
+    border-color: cyan;
+    border-radius: 0.8rem;
+    border-style:solid;
+    
+    
+
+}
+
+ body{
+     font-family: 'Times New Roman', Times, serif;
+ background-color:antiquewhite
+    }
+
+input ,label{
+    display: block;
+    margin-bottom: 1px;
+
+}    
+input {
+    border-color:rebeccapurple;
+    border-radius: 0.8rem;
+    border-style: solid;
+    border:   solid violet;
+    font-size: 1rem;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 10px;
+ }
+
+    input:focus {
+
+        border-left: springgreen
+        20px solid;
+        background-color: thistle;
+
+
+    }
+
+    label {
+        font-size: 2rem;
+
+    }
+
+textarea  {
+    border-radius: 0.8rem;
+    border: violet solid;
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+   
+button {
+
+   font-size: 1rem;
+   border: slateblue 5px solid ;
+   border-radius: 5px;
+   width: 4rem;
+   height: 3rem;
+   padding: 5px;
+   background-color: #D76B9C;
+   color: slateblue ;
+
+   
+}
+ 
+button:hover {
+
+    background-color: seagreen;
+    color: whitesmoke;
+    border: seagreen
+    ;
+}
+
+ .flex {
+
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+
+ }
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    color:blueviolet;
+    text-decoration: underline;
+} 
+
+
+
+
+
+
+
